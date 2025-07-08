@@ -5,7 +5,7 @@
   font-variation-settings:
   "wdth" 100;
 }
-
+ 
 /*Navigation Style */
 nav{
   display: flex;
@@ -90,6 +90,8 @@ nav .dark_2{
 main{
   max-width: 1250px;
   margin: 0 auto;
+}
+main section{
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -163,3 +165,56 @@ main{
    color: #757575;
   font-size: 18px;
 }
+
+/* Resume Experience style */
+.resume_container{
+  display: flex;
+  gap: 50px;
+  margin: 0 130px;
+}
+.resume_h2{
+  text-align: center;
+  color: #474747;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.resume_colunm_h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+}
+.experiecne_h4{
+  font-weight: bold;
+  font-size: 20px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.experiecne_h5{
+  color: #757575;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.experiecne_p{
+  color: #757575;
+  font-size: 15px;
+}
+hr{
+  border: 1px solid  #D1D1D1;
+}
+.button{
+  background-color: #FD6E0A;
+  font-size: 20px;
+  padding: 18px 35px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 60px;
+}
+ 
+
+
+
