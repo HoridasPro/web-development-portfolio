@@ -53,10 +53,7 @@ nav .dark_2{
   background-repeat: no-repeat;
   background-position: top left,bottom right;
 }
-.secondary_bg{
-  background-color:#FFF8F3 ;
-}
-
+ 
 /* Banner Design */
 .banner{
   display: flex;
@@ -91,13 +88,16 @@ nav .dark_2{
 
 /* About Design */
 main{
-  max-width: 1100px;
+  max-width: 1250px;
   margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 .about_me{
   padding: 130px 150px;
   margin-top: 130px;
   text-align: center;
+  border-radius: 20px;
 }
 .about_h3{
   font-weight: bold;
@@ -121,4 +121,45 @@ main{
   color: #474747;
   font-weight: bold;
   font-size: 20px;
+}
+.secondary_bg{
+  background-color:#FFF8F3;
+}
+
+/* Skills Style */
+.skills{
+  margin: 130px 100px 0 120px;
+}
+.skill_title{
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+}
+.skill_para{
+  color: #757575;
+  font-size: 18px;
+  text-align: center;
+   padding: 0 110px;
+}
+
+/* Skill Container style */
+.skills_container{
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+.skill{
+  padding: 30px 20px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill_h3{
+  font-weight: bold;
+  font-size: 20px;
+  color: #181818;
+}
+.skill_p{
+   color: #757575;
+  font-size: 18px;
 }
