@@ -11,7 +11,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 0 200px;
 }
 .nav_title{
   font-weight:800;
@@ -51,14 +51,15 @@ nav .dark_2{
 .header{
   background-image: url(../images/developer.png),url(../images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left,bottom right;
+  background-position: 40px 25px,bottom right;
 }
- 
+
 /* Banner Design */
 .banner{
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 200px;
+  line-height: 40px;
 }
 .banner_content{
   max-width: 585px;
@@ -75,13 +76,28 @@ nav .dark_2{
 .banner_para{
   color: #757575;
   font-size: 18px;
+  line-height: 27px;
+}
+.banner_btn i{
+  margin: 0 8px;
+}
+.btn{
+  font-size: 20px;
+  padding: 18px 35px;
+  color: #FD6E0A;
+  border-radius: 5px;
+  border: 2px solid #FD6E0A;
+  font-weight: bold;
+}
+.btn i{
+  margin: 0 8px;
+}
+button{
+  margin: 0 50px;
+  margin-left: 0;
 }
 
 /* Button Design */
-.banner_btn{
-  color: #fff;
-  font-size: ;
-}
 .banner_img{
   width: 580px;
 }
@@ -105,6 +121,7 @@ main section{
   font-weight: bold;
   font-size: 35px;
   color: #181818;
+  margin-top: -20px;
 }
 .about_para{
   color: #757575;
@@ -142,7 +159,7 @@ main section{
   color: #757575;
   font-size: 18px;
   text-align: center;
-   padding: 0 110px;
+  padding: 0 110px;
 }
 
 /* Skill Container style */
@@ -162,7 +179,7 @@ main section{
   color: #181818;
 }
 .skill_p{
-   color: #757575;
+  color: #757575;
   font-size: 18px;
 }
 
@@ -206,7 +223,7 @@ hr{
 .button{
   background-color: #FD6E0A;
   font-size: 20px;
-  padding: 18px 35px;
+  padding: 18px 20px;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -214,7 +231,41 @@ hr{
   display: block;
   margin-top: 60px;
 }
+
+/* Fotter Styles */
+.footer{
+  display: flex;
+  padding: 100px 230px;
+  background-color:#FFF8F3;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.footer_colunm{
+  width: 50%;
+}
+.footer_h3{
+  color: #181818;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom:25px;
+}
+.footer_p{
+  color: #474747;
+  font-size: 15px;
+}
+.footer_img img{
+  margin: 0 10px;
+  margin-left: 0;
+}
+form input[type=text],input[type=email],textarea{
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
  
+
 
 
 
